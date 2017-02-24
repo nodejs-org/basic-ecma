@@ -1,0 +1,23 @@
+{
+  "name": "basicecma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "babel --presets es2015 src/math-operations.js -o dist/dev/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodejs-org/basic-ecma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodejs-org/basic-ecma/issues"
+  },
+  "homepage": "https://github.com/nodejs-org/basic-ecma#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
