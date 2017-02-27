@@ -1,7 +1,5 @@
-import "babel-polyfill";
+import AddOp from './addOp';
 
-const add = (x,y) => {
-  return x + y;
-}
+const addObj = new AddOp(5,10);
 
-export default add;
+alert(addObj.add());
