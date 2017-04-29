@@ -1,4 +1,4 @@
-export default class AddOp{
+class AddOp{
   constructor(xInp,yInp){
     this.x = xInp;
     this.y = yInp;
@@ -7,3 +7,5 @@ export default class AddOp{
     return this.x + this.y;
   }
 }
+
+export default AddOp;

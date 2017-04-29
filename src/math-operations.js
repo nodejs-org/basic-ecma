@@ -1,5 +1,9 @@
 import AddOp from './addOp';
 
-const addObj = new AddOp(5,10);
+let doAdd = function(x,y){
+  let addObj = new AddOp(x,y);
+  console.log(addObj.add());
+}
 
-alert(addObj.add());
+console.log(doAdd(5,5));
+// export default doAdd;
