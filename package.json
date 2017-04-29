@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist/transpiled"
+    "build": "webpack",
+    "run": "node index.js"
   },
   "repository": {
     "type": "git",
